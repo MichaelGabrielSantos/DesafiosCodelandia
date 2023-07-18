@@ -8,11 +8,11 @@ height: 100vh;
 
 export const ContainerPrincipal = styled.div`
 width: 100%;
-height: 23vh;
+height: 100vh;
 
 `;
 
 export const Header = styled.div`
 width: 100%;
-height: 23%;
+height: 360px;
 `; 

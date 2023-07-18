@@ -6,8 +6,12 @@ import { Header, ContainerPrincipal} from './main'
 function App() {
   return (
     <div className="App">
-      
-          <Menu/>
+      <ContainerPrincipal>
+          <Header>
+            <Menu/>
+          </Header>
+      </ContainerPrincipal>
+          
        
     </div>
   );

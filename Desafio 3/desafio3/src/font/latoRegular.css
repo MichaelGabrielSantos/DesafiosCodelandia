@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: 'Lato-Regular Regular';
+    src: url(./Lato-Regular.ttf);
+}
+
+body{
+    font-family: 'Lato-Regular Regular',sans-serif;
+}

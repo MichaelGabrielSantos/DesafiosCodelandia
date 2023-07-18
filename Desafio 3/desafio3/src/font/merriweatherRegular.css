@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Merriwather Regular';
+    src: url(./Merriweather-Regular.ttf);
+}
+
+
+body{
+    font-family: 'Merriwather Regular',sans-serif;
+}

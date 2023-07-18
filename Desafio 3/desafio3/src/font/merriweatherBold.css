@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: 'Merriwather Bold';
+    src: url(./Merriweather-Bold.ttf);
+}
+
+body{
+    font-family: 'Merriwather Bold',sans-serif;
+}

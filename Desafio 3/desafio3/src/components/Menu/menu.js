@@ -1,17 +1,20 @@
 import React from "react";
-import{Container, Title, Subtitle,ImagemPrincipal, TextContainer2} from './style'
+import{Container, Title, Subtitle,ImagemPrincipal, TextContainer2, Content, Button} from './style'
 import MinhaImagemteste from '../../image/illustration.svg';
-import { Grid } from '@material-ui/core';
 
 const Menu = () => {
     return (
-        <Grid container spacing={2}>
-            <Grid item xs={6}>
-                <Title>Lorem ipsum dolor sit amet</Title>
-                <Subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu massa sit amet augue consectetur ullamcorper non ac massa.</Subtitle>
-            </Grid>
-            <ImagemPrincipal item xs={6} src={MinhaImagemteste}></ImagemPrincipal>
-        </Grid>
+        <Container>
+            <Content>
+                <TextContainer2 >
+                    <Title>Lorem ipsum dolor sit amet</Title>
+                    <Subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu massa sit amet augue consectetur ullamcorper non ac massa.</Subtitle>
+                    <Button>Botão</Button>
+                </TextContainer2>
+            
+                <ImagemPrincipal item xs={6} src={MinhaImagemteste}></ImagemPrincipal>
+            </Content>
+        </Container>
     );
 };
 
