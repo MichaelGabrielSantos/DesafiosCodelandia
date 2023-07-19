@@ -100,5 +100,9 @@ padding:60px 0 20px 10px;
 export const Button = styled.button`
 width: 100px;
 height: 20px;
+margin-top: 20px;
+padding: 10px 25px 2px 2px;
+
+
 
 `;

@@ -9,7 +9,7 @@ const Menu = () => {
                 <TextContainer2 >
                     <Title>Lorem ipsum dolor sit amet</Title>
                     <Subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu massa sit amet augue consectetur ullamcorper non ac massa.</Subtitle>
-                    <Button>Botão</Button>
+                    <Button></Button>
                 </TextContainer2>
             
                 <ImagemPrincipal item xs={6} src={MinhaImagemteste}></ImagemPrincipal>
