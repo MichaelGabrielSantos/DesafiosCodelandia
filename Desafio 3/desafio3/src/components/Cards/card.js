@@ -1,11 +1,26 @@
 import React from "react";
-import{Container} from './style'
+import{Container, CardBody, Footer, Title, Description, ImagemPrincipal} from './style'
+import MinhaImagemteste from '../../image/vermelho.png';
 
 
-const Card= () => {
+const Card= (props) => {
     return (
         <Container>
-            teste
+            <CardBody>
+            <ImagemPrincipal item xs={6} src={props.image}></ImagemPrincipal>
+                <Footer>
+                    
+                    <Title>
+                        <h1>{props.title}</h1>
+                    </Title>
+
+                    <Description>
+                        <p>
+                        {props.description}
+                        </p>
+                    </Description>
+                </Footer>
+            </CardBody>
         </Container>
     );
 };
