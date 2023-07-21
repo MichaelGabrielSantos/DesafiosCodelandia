@@ -1,9 +1,10 @@
 
 import './App.css';
 import Menu from './components/Menu/menu'
+import Contact from './components/ContactMe/Contact';
 import { Header, ContainerPrincipal} from './main'
 import Card from './components/Cards/card'
-import { Content,CardsContent, Break } from './main';
+import { Content,CardsContent, Break, Footer } from './main';
 import Fundo1 from './image/vermelho.png'
 import Fundo2 from './image/Rectangle (1).png'
 import Fundo3 from './image/Rectangle (2).png'
@@ -29,6 +30,9 @@ function App() {
               <Card title="Lorem Ipsum" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl." image={Fundo6}/> 
             </CardsContent>
           </Content>
+          <Footer>
+            <Contact></Contact>
+          </Footer>
           
       </ContainerPrincipal>
           

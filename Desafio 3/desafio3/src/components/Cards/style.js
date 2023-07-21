@@ -9,7 +9,7 @@ width: 70%;
 max-height: 80%;
 height: 100%;
 background-color: #fff;
-margin: 40px auto;
+margin: 40px auto 90px auto;
 
 display: grid;
 grid-template-rows: 55% 45%;
@@ -22,6 +22,7 @@ filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.10));
 export const CardBody = styled.div`
 width: 100%;
 height: 100%;
+
 
 `; 
 

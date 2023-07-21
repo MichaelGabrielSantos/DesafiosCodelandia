@@ -30,7 +30,7 @@ display: flex;
 `; 
 
 export const CardsContent = styled.div`
-
+padding:60px;
 
 width: 70%;
 height: 100%;
@@ -54,4 +54,9 @@ flex-basis: 100%;
 height: 0;
 `; 
 
+
+export const Footer = styled.div`
+width: 100%;
+height: auto;
+`; 
 
