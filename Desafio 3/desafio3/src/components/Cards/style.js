@@ -40,6 +40,8 @@ text-align: left;
 
 margin-left: 25px;
 
+font-family: 'Merriwather Bold';
+
 `; 
 
 export const Description = styled.div`
@@ -52,7 +54,8 @@ p{
     width: 180px;
 
     color: #555;
-}
+
+    font-family: 'Merriwather Regular';}
 
 `;
 

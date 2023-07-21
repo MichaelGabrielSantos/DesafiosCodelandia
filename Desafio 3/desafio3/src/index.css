@@ -18,3 +18,24 @@ code {
   padding: 0;
 }
 
+
+
+@font-face {
+  font-family: 'Lato-Regular Regular';
+  src: url(../src/font/Lato-Regular.ttf);
+}
+
+
+
+@font-face {
+  font-family: 'Merriwather Regular';
+  src: url(../src/font/Merriweather-Regular.ttf);
+}
+
+
+
+@font-face {
+  font-family: 'Merriwather Bold';
+  src: url(../src/font/Merriweather-Bold.ttf);
+}
+
