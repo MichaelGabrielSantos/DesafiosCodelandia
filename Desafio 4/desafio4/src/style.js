@@ -15,3 +15,10 @@ export const Container = styled.div`
 
 
 `;
+
+
+export const SideLeft = styled.div`
+  height:100vh;
+  width: 50%;
+
+`;
