@@ -8,7 +8,7 @@ export const Container = styled.div`
   width: 100%;
 
 
- margin: 30% auto 0 auto;
+ margin: 0 auto;
 
  color:#fff;
 
@@ -17,7 +17,7 @@ export const Container = styled.div`
 
 export const TextContainer = styled.div`
   height:auto;
-  width: 45%;
+  width: 100%;
   margin: 0 auto;
 
  color:#fff;
