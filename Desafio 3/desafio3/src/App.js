@@ -28,6 +28,7 @@ function App() {
               <Card title="Lorem Ipsum" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl." image={Fundo4}/> 
               <Card title="Lorem Ipsum" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl." image={Fundo5}/> 
               <Card title="Lorem Ipsum" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl." image={Fundo6}/> 
+              
             </CardsContent>
           </Content>
           <Footer>
